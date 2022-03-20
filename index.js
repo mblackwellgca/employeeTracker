@@ -1,10 +1,10 @@
 // Import and require
-require('console.table');
 const {prompt} = require('inquirer');
 const db = require('./db');
+require('console.table');
 
-// prompts
-function init() {
+// Initial function to run prompts
+function runPrompts() {
   prompt([
     {
       type: "list",
@@ -275,7 +275,7 @@ function quit() {
   process.exit();
 }     
 
-init();
+runPrompts();
 
 
 
