@@ -13,6 +13,6 @@ VALUE ("OPS Coordinator", 60000, 1),
         ("Science Teacher", 45000, 4);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUE ("Christopher", "Ponzio", 2, NULL),
-        ("Song", "Li", 3, NULL),
-        ("Michelle", "Blackwell", 1, NULL);
+VALUE ("Christopher", " Ponzio", 2, 3),
+        ("Michelle", " Blackwell", 3, NULL),
+        ("Jorden", " Gamble", 1, 2);
